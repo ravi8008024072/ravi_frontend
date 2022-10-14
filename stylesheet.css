@@ -1,0 +1,213 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+
+header
+{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(home1.png);
+	height: 100vh;
+	background-size:cover;
+	background-position:center;
+}
+
+.main-nav
+{
+	float:right;
+	list-type:none;
+	margin-top:30px;
+
+}
+
+.main-nav li 
+{
+	display:inline-block;
+}
+
+.main-nav li a 
+{
+	color:white;
+	text-decoration:none;
+	padding:5px 20px;
+	font-family:"Roboto",sans-serif;
+	font-size:16px;
+}
+
+.main-nav li.active a 
+{
+	border:1px solid white;
+}
+
+.main-nav li a:hover
+{
+	border:3px solid white;
+	
+}
+
+.logo img
+{
+	width:120px;
+	height:auto;
+	float:left;
+}
+
+.row
+{
+	max-width:1200px;
+	margin:auto;
+}
+
+.hero 
+{
+	position:absolute;
+	overflow:hidden;
+	margin-left:30px;
+
+	
+}
+
+
+h1
+{
+	color:white;
+	text-transform:uppercase;
+	font-size:90px;
+	text-align:center;
+	
+	
+}
+
+h3
+{
+	color:white;
+	text-transform:uppercase;
+	text-align:center;
+	margin-top:300px;
+	overflow:hidden;
+	font-size:30px;
+	
+	
+}
+
+	/* carecompure_css start */
+#cs-services .col-md-12,
+
+#cs-technicalskills,
+
+#cs-services img {
+    width: 70px;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+}
+
+
+.progress {
+        border-radius: 0;
+        overflow: visible;
+    }
+
+    
+.progress-bar {
+        background: rgb(23, 44, 60);
+        -webkit-transition: width 1.5s ease-in-out;
+        transition: width 1.5s ease-in-out;
+    }
+
+#cs-services img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/* section#cs-services { */
+
+
+
+/* padding: 125px 0px; */
+
+/* } 
+*/#cs-services .services-img {
+    padding: 20px;
+}
+
+
+#cs-services .icons-top {
+    margin-top: 30px;
+}
+
+
+#cs-technicalskills .progress-bar {
+    background: #0098e2;
+}
+
+
+
+/* 
+#cs-technicalskills { */
+
+
+/* padding: 50px 0px; */
+
+
+/* } 
+*/
+
+.progress {
+    margin: 40px 0px;
+}
+
+
+
+/* 
+#cs-technicalskills .icons-top { */
+
+
+/* margin-top: 40px; */
+
+
+/* } */
+
+
+/* 
+#cs-contactus, */
+
+
+/* #cs-partners, */
+
+
+/* 
+#cs-Clients { */
+
+
+/* padding: 120px 0px; */
+
+
+/* } */
+
+
+/* 
+#cs-contactus .icons-top, */
+
+
+/* 
+#cs-contactus .icons-top, */
+
+
+/* 
+#cs-partners .icons-top, */
+
+
+/* 
+#cs-Clients .icons-top { */
+
+
+/* margin: 60px; */
+
+
+/* } */
